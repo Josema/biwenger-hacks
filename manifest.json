@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Biwenger hacks",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://biwenger.as.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
