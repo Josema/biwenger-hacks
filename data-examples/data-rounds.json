@@ -1,0 +1,2858 @@
+{
+    "status": 200,
+    "data": {
+        "id": 2646,
+        "name": "Jornada 8",
+        "short": "J8",
+        "competition": {
+            "id": 1,
+            "slug": "la-liga",
+            "standings": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 15,
+                        "name": "Real Madrid",
+                        "slug": "real-madrid"
+                    },
+                    "points": 17,
+                    "won": 5,
+                    "lost": 0,
+                    "tied": 2,
+                    "scored": 21,
+                    "against": 8
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 13,
+                        "name": "Real Sociedad",
+                        "slug": "real-sociedad"
+                    },
+                    "points": 16,
+                    "won": 5,
+                    "lost": 1,
+                    "tied": 1,
+                    "scored": 10,
+                    "against": 6
+                },
+                {
+                    "position": 3,
+                    "team": { "id": 17, "name": "Sevilla", "slug": "sevilla" },
+                    "points": 14,
+                    "won": 4,
+                    "lost": 0,
+                    "tied": 2,
+                    "scored": 10,
+                    "against": 2
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 2,
+                        "name": "AtlÃ©tico",
+                        "slug": "atletico"
+                    },
+                    "points": 14,
+                    "won": 4,
+                    "lost": 1,
+                    "tied": 2,
+                    "scored": 9,
+                    "against": 6
+                },
+                {
+                    "position": 5,
+                    "team": {
+                        "id": 70,
+                        "name": "Rayo Vallecano",
+                        "slug": "rayo-vallecano"
+                    },
+                    "points": 13,
+                    "won": 4,
+                    "lost": 2,
+                    "tied": 1,
+                    "scored": 13,
+                    "against": 7
+                },
+                {
+                    "position": 6,
+                    "team": {
+                        "id": 3,
+                        "name": "Barcelona",
+                        "slug": "barcelona"
+                    },
+                    "points": 12,
+                    "won": 3,
+                    "lost": 0,
+                    "tied": 3,
+                    "scored": 11,
+                    "against": 5
+                },
+                {
+                    "position": 7,
+                    "team": { "id": 87, "name": "Betis", "slug": "betis" },
+                    "points": 12,
+                    "won": 3,
+                    "lost": 1,
+                    "tied": 3,
+                    "scored": 11,
+                    "against": 7
+                },
+                {
+                    "position": 8,
+                    "team": {
+                        "id": 18,
+                        "name": "Valencia",
+                        "slug": "valencia"
+                    },
+                    "points": 11,
+                    "won": 3,
+                    "lost": 2,
+                    "tied": 2,
+                    "scored": 12,
+                    "against": 8
+                },
+                {
+                    "position": 9,
+                    "team": { "id": 93, "name": "Osasuna", "slug": "osasuna" },
+                    "points": 11,
+                    "won": 3,
+                    "lost": 2,
+                    "tied": 2,
+                    "scored": 10,
+                    "against": 11
+                },
+                {
+                    "position": 10,
+                    "team": { "id": 1, "name": "Athletic", "slug": "athletic" },
+                    "points": 10,
+                    "won": 2,
+                    "lost": 1,
+                    "tied": 4,
+                    "scored": 6,
+                    "against": 4
+                },
+                {
+                    "position": 11,
+                    "team": {
+                        "id": 19,
+                        "name": "Villarreal",
+                        "slug": "villarreal"
+                    },
+                    "points": 8,
+                    "won": 1,
+                    "lost": 0,
+                    "tied": 5,
+                    "scored": 6,
+                    "against": 3
+                },
+                {
+                    "position": 12,
+                    "team": {
+                        "id": 465,
+                        "name": "Mallorca",
+                        "slug": "mallorca"
+                    },
+                    "points": 8,
+                    "won": 2,
+                    "lost": 3,
+                    "tied": 2,
+                    "scored": 6,
+                    "against": 12
+                },
+                {
+                    "position": 13,
+                    "team": { "id": 5, "name": "Celta", "slug": "celta" },
+                    "points": 7,
+                    "won": 2,
+                    "lost": 4,
+                    "tied": 1,
+                    "scored": 7,
+                    "against": 10
+                },
+                {
+                    "position": 14,
+                    "team": { "id": 7, "name": "Espanyol", "slug": "espanyol" },
+                    "points": 6,
+                    "won": 1,
+                    "lost": 3,
+                    "tied": 3,
+                    "scored": 4,
+                    "against": 7
+                },
+                {
+                    "position": 15,
+                    "team": { "id": 476, "name": "CÃ¡diz", "slug": "cadiz" },
+                    "points": 6,
+                    "won": 1,
+                    "lost": 3,
+                    "tied": 3,
+                    "scored": 7,
+                    "against": 11
+                },
+                {
+                    "position": 16,
+                    "team": { "id": 75, "name": "Elche", "slug": "elche" },
+                    "points": 6,
+                    "won": 1,
+                    "lost": 3,
+                    "tied": 3,
+                    "scored": 4,
+                    "against": 8
+                },
+                {
+                    "position": 17,
+                    "team": { "id": 10, "name": "Levante", "slug": "levante" },
+                    "points": 4,
+                    "won": 0,
+                    "lost": 3,
+                    "tied": 4,
+                    "scored": 6,
+                    "against": 12
+                },
+                {
+                    "position": 18,
+                    "team": { "id": 71, "name": "Granada", "slug": "granada" },
+                    "points": 3,
+                    "won": 0,
+                    "lost": 4,
+                    "tied": 3,
+                    "scored": 5,
+                    "against": 12
+                },
+                {
+                    "position": 19,
+                    "team": { "id": 91, "name": "AlavÃ©s", "slug": "alaves" },
+                    "points": 3,
+                    "won": 1,
+                    "lost": 5,
+                    "tied": 0,
+                    "scored": 2,
+                    "against": 11
+                },
+                {
+                    "position": 20,
+                    "team": { "id": 8, "name": "Getafe", "slug": "getafe" },
+                    "points": 0,
+                    "won": 0,
+                    "lost": 7,
+                    "tied": 0,
+                    "scored": 2,
+                    "against": 12
+                }
+            ]
+        },
+        "status": "pending",
+        "scoreID": 5,
+        "games": [
+            {
+                "id": 25611,
+                "date": 1633114800,
+                "status": "preview",
+                "home": {
+                    "id": 1,
+                    "name": "Athletic",
+                    "slug": "athletic",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 415,
+                                "name": "RaÃºl GarcÃ­a",
+                                "slug": "raul-garcia",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 897,
+                                "name": "Berenguer",
+                                "slug": "alex-berenguer",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 937,
+                                "name": "Balenziaga",
+                                "slug": "balenziaga",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1053,
+                                "name": "Muniain",
+                                "slug": "muniain",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1424,
+                                "name": "IÃ±igo MartÃ­nez",
+                                "slug": "inigo-martinez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1864,
+                                "name": "Dani GarcÃ­a",
+                                "slug": "dani-garcia",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1995,
+                                "name": "Williams",
+                                "slug": "williams",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2577,
+                                "name": "Lekue",
+                                "slug": "lekue",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 12400,
+                                "name": "Dani Vivian",
+                                "slug": "dani-vivian",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17021,
+                                "name": "Unai SimÃ³n",
+                                "slug": "unai-simon",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 21145,
+                                "name": "Vencedor",
+                                "slug": "unai-vencedor",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 91,
+                    "name": "AlavÃ©s",
+                    "slug": "alaves",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 841,
+                                "name": "Laguardia",
+                                "slug": "laguardia",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 859,
+                                "name": "Pacheco",
+                                "slug": "pacheco",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1048,
+                                "name": "Toni Moya",
+                                "slug": "toni-moya",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2027,
+                                "name": "RubÃ©n Duarte",
+                                "slug": "duarte",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2599,
+                                "name": "Sylla",
+                                "slug": "sylla",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5595,
+                                "name": "Miguel De La Fuente",
+                                "slug": "miguel-de-la-fuente",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9065,
+                                "name": "Ximo Navarro",
+                                "slug": "ximo-navarro",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 11639,
+                                "name": "Aguirregabiria",
+                                "slug": "martin-aguirregabiria",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17442,
+                                "name": "Rioja",
+                                "slug": "luis-rioja",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24302,
+                                "name": "Mamadou Loum",
+                                "slug": "mamadou-loum",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24543,
+                                "name": "Matt Miazga",
+                                "slug": "matt-miazga",
+                                "position": 2
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Athletic - AlavÃ©s",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/athletic-alaves-4/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25611&lang=es"
+                },
+                "summary": null,
+                "location": "San MamÃ©s",
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/athletic-alaves-4/",
+                "initialLineups": false
+            },
+            {
+                "id": 25618,
+                "date": 1633176000,
+                "status": "preview",
+                "home": {
+                    "id": 93,
+                    "name": "Osasuna",
+                    "slug": "osasuna",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 742,
+                                "name": "Kike GarcÃ­a",
+                                "slug": "kike-garcia",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 890,
+                                "name": "Unai GarcÃ­a",
+                                "slug": "unai-garcia",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 894,
+                                "name": "David GarcÃ­a",
+                                "slug": "david-garcia-zubiria",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1602,
+                                "name": "RubÃ©n GarcÃ­a",
+                                "slug": "ruben-garcia",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1721,
+                                "name": "Manu SÃ¡nchez",
+                                "slug": "manu-sanchez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5802,
+                                "name": "Brasanac",
+                                "slug": "brasanac",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 8747,
+                                "name": "Moncayola",
+                                "slug": "moncayola",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10525,
+                                "name": "Nacho Vidal",
+                                "slug": "nacho-vidal",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18251,
+                                "name": "Sergio Herrera",
+                                "slug": "sergio-herrera",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19485,
+                                "name": "TorrÃ³",
+                                "slug": "lucas-torro",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 23653,
+                                "name": "Javi MartÃ­nez",
+                                "slug": "javi-martinez",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 70,
+                    "name": "Rayo Vallecano",
+                    "slug": "rayo-vallecano",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 33,
+                                "name": "Ãlvaro GarcÃ­a",
+                                "slug": "alvaro-garcia",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1309,
+                                "name": "Nikola Maras",
+                                "slug": "nikola-maras",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5069,
+                                "name": "Isi PalazÃ³n",
+                                "slug": "isi-palazon",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5220,
+                                "name": "Fran GarcÃ­a",
+                                "slug": "fran-garcia",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9462,
+                                "name": "Trejo",
+                                "slug": "oscar-trejo",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9480,
+                                "name": "Santi ComesaÃ±a",
+                                "slug": "santi-comesana",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 11677,
+                                "name": "Dimitrievski",
+                                "slug": "s-dimitrievski",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17731,
+                                "name": "Catena",
+                                "slug": "a-catena",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 21063,
+                                "name": "IvÃ¡n Balliu",
+                                "slug": "ivan-balliu",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 21954,
+                                "name": "Falcao",
+                                "slug": "radamel-falcao",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24326,
+                                "name": "PathÃ© Ciss",
+                                "slug": "pathe-ciss",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Osasuna - Rayo Vallecano",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/osasuna-rayo-vallecano/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25618&lang=es"
+                },
+                "summary": null,
+                "location": null,
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/osasuna-rayo-vallecano/",
+                "initialLineups": false
+            },
+            {
+                "id": 25613,
+                "date": 1633184100,
+                "status": "preview",
+                "home": {
+                    "id": 465,
+                    "name": "Mallorca",
+                    "slug": "mallorca",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 1477,
+                                "name": "Baba",
+                                "slug": "baba",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2055,
+                                "name": "Ruiz de Galarreta",
+                                "slug": "ruiz-de-galarreta",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9046,
+                                "name": "Amath",
+                                "slug": "amath-ndiaye",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10030,
+                                "name": "Maffeo",
+                                "slug": "maffeo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17687,
+                                "name": "Kang-in Lee",
+                                "slug": "kang-in-lee",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18399,
+                                "name": "Martin Valjent",
+                                "slug": "martin-valjent",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18400,
+                                "name": "Franco Russo",
+                                "slug": "franco-russo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18407,
+                                "name": "Dani RodrÃ­guez",
+                                "slug": "dani-rodriguez",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18413,
+                                "name": "Manolo Reina",
+                                "slug": "manolo-reina",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19532,
+                                "name": "Brian Olivan",
+                                "slug": "brian-olivan",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 21132,
+                                "name": "Fer NiÃ±o",
+                                "slug": "fernando-nino",
+                                "position": 4
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 10,
+                    "name": "Levante",
+                    "slug": "levante",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 202,
+                                "name": "Rober SuÃ¡rez",
+                                "slug": "rober-suarez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 759,
+                                "name": "Clerc",
+                                "slug": "clerc",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1805,
+                                "name": "Vezo",
+                                "slug": "ruben-vezo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1868,
+                                "name": "Morales",
+                                "slug": "morales",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1943,
+                                "name": "Radoja",
+                                "slug": "radoja",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2075,
+                                "name": "Roger",
+                                "slug": "roger",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 4245,
+                                "name": "Pablo MartÃ­nez",
+                                "slug": "pablo-martinez",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9804,
+                                "name": "Melero",
+                                "slug": "gonzalo-melero",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 15459,
+                                "name": "MiramÃ³n",
+                                "slug": "jorge-miramon",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 16606,
+                                "name": "Aitor FernÃ¡ndez",
+                                "slug": "a-fernandez",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18397,
+                                "name": "de Frutos",
+                                "slug": "jorge-de-frutos",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Mallorca - Levante",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/mallorca-levante-2/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25613&lang=es"
+                },
+                "summary": null,
+                "location": null,
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/mallorca-levante-2/",
+                "initialLineups": false
+            },
+            {
+                "id": 25615,
+                "date": 1633192200,
+                "status": "preview",
+                "home": {
+                    "id": 476,
+                    "name": "CÃ¡diz",
+                    "slug": "cadiz",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 633,
+                                "name": "Negredo",
+                                "slug": "negredo",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1760,
+                                "name": "Chust",
+                                "slug": "chust",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 3689,
+                                "name": "TomÃ¡s AlarcÃ³n",
+                                "slug": "tomas-alarcon",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5293,
+                                "name": "Sobrino",
+                                "slug": "sobrino",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9601,
+                                "name": "Varazdat Haroyan",
+                                "slug": "varazdat-haroyan",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10346,
+                                "name": "Akapo",
+                                "slug": "carlos-akapo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19281,
+                                "name": "Fali",
+                                "slug": "fali",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19285,
+                                "name": "Pacha Espino",
+                                "slug": "alfonso-espino",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19291,
+                                "name": "Salvi",
+                                "slug": "salvi",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22189,
+                                "name": "Ledesma",
+                                "slug": "j-ledesma",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24967,
+                                "name": "Ãlvaro Bastida",
+                                "slug": "alvaro-bastida",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 18,
+                    "name": "Valencia",
+                    "slug": "valencia",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 1780,
+                                "name": "Foulquier",
+                                "slug": "foulquier",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2104,
+                                "name": "Wass",
+                                "slug": "daniel-wass",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5801,
+                                "name": "Cillessen",
+                                "slug": "cillessen",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 6259,
+                                "name": "Hugo Duro",
+                                "slug": "hugo-duro",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 8375,
+                                "name": "Lato",
+                                "slug": "lato",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10243,
+                                "name": "Gabriel Paulista",
+                                "slug": "gabriel-paulista",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10745,
+                                "name": "Guedes",
+                                "slug": "guedes",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18918,
+                                "name": "Marcos AndrÃ©",
+                                "slug": "marcos-de-sousa",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19915,
+                                "name": "Omar Alderete",
+                                "slug": "omar-alderete",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 21312,
+                                "name": "GuillamÃ³n",
+                                "slug": "hugo-guillamon",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22614,
+                                "name": "Musah",
+                                "slug": "yunus-musah",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del CÃ¡diz - Valencia",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/cadiz-valencia-2/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25615&lang=es"
+                },
+                "summary": null,
+                "location": null,
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/cadiz-valencia-2/",
+                "initialLineups": false
+            },
+            {
+                "id": 25612,
+                "date": 1633201200,
+                "status": "preview",
+                "home": {
+                    "id": 2,
+                    "name": "AtlÃ©tico",
+                    "slug": "atletico",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 1083,
+                                "name": "Koke",
+                                "slug": "koke",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1153,
+                                "name": "Griezmann",
+                                "slug": "griezmann",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1676,
+                                "name": "GimÃ©nez",
+                                "slug": "jose-gimenez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1897,
+                                "name": "Oblak",
+                                "slug": "oblak",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1902,
+                                "name": "SuÃ¡rez",
+                                "slug": "luis-suarez",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2150,
+                                "name": "Carrasco",
+                                "slug": "ferreira-carrasco",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2182,
+                                "name": "Savic",
+                                "slug": "savic",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2600,
+                                "name": "Llorente",
+                                "slug": "marcos-llorente",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9761,
+                                "name": "Hermoso",
+                                "slug": "mario-hermoso",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 11196,
+                                "name": "Lemar",
+                                "slug": "thomas-lemar",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 15607,
+                                "name": "Trippier",
+                                "slug": "trippier",
+                                "position": 2
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 3,
+                    "name": "Barcelona",
+                    "slug": "barcelona",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 20,
+                                "name": "Eric GarcÃ­a",
+                                "slug": "eric-garcia",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 140,
+                                "name": "PiquÃ©",
+                                "slug": "pique",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 938,
+                                "name": "Busquets",
+                                "slug": "sergio-busquets",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 987,
+                                "name": "Jordi Alba",
+                                "slug": "jordi-alba",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1852,
+                                "name": "Ter Stegen",
+                                "slug": "ter-stegen",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 4445,
+                                "name": "Memphis Depay",
+                                "slug": "memphis-depay",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10944,
+                                "name": "Dest",
+                                "slug": "sergino-dest",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 11759,
+                                "name": "Coutinho",
+                                "slug": "coutinho",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18174,
+                                "name": "Frenkie De Jong",
+                                "slug": "frenkie-de-jong",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18494,
+                                "name": "Luuk De Jong",
+                                "slug": "luuk-de-jong",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24732,
+                                "name": "Gavi",
+                                "slug": "gavi",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del AtlÃ©tico - Barcelona",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/atletico-barcelona-4/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25612&lang=es"
+                },
+                "summary": null,
+                "location": "Wanda Metropolitano",
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/atletico-barcelona-4/",
+                "initialLineups": false
+            },
+            {
+                "id": 25620,
+                "date": 1633262400,
+                "status": "preview",
+                "home": {
+                    "id": 75,
+                    "name": "Elche",
+                    "slug": "elche",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 635,
+                                "name": "Diego GonzÃ¡lez",
+                                "slug": "diego-gonzalez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 645,
+                                "name": "Casilla",
+                                "slug": "kiko-casilla",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 866,
+                                "name": "Piatti",
+                                "slug": "piatti",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1912,
+                                "name": "Lucas PÃ©rez",
+                                "slug": "lucas-perez",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2201,
+                                "name": "Omar Mascarell",
+                                "slug": "omar-mascarell",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10245,
+                                "name": "Mojica",
+                                "slug": "johan-mojica",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22063,
+                                "name": "Fidel",
+                                "slug": "fidel-2",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22068,
+                                "name": "VerdÃº",
+                                "slug": "gonzalo-verdu",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22724,
+                                "name": "RaÃºl Guti",
+                                "slug": "raul-guti",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 23907,
+                                "name": "Helibelton Palacios",
+                                "slug": "helibelton-palacios",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24510,
+                                "name": "Benedetto",
+                                "slug": "d-benedetto",
+                                "position": 4
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 5,
+                    "name": "Celta",
+                    "slug": "celta",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 1248,
+                                "name": "Nolito",
+                                "slug": "nolito",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1522,
+                                "name": "Hugo Mallo",
+                                "slug": "hugo-mallo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1523,
+                                "name": "Iago Aspas",
+                                "slug": "iago-aspas",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1661,
+                                "name": "Santi Mina",
+                                "slug": "santi-mina",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1876,
+                                "name": "Denis SuÃ¡rez",
+                                "slug": "denis-suarez",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10244,
+                                "name": "Murillo",
+                                "slug": "jeison-murillo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 11610,
+                                "name": "Brais MÃ©ndez",
+                                "slug": "brais-mendez",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 15452,
+                                "name": "NÃ©stor  Araujo",
+                                "slug": "nestor-araujo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17482,
+                                "name": "MatÃ­as Dituro",
+                                "slug": "matias-dituro",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17645,
+                                "name": "GalÃ¡n",
+                                "slug": "javi-galan",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19259,
+                                "name": "Tapia",
+                                "slug": "renato-tapia",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Elche - Celta",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/elche-celta-2/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25620&lang=es"
+                },
+                "summary": null,
+                "location": null,
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/elche-celta-2/",
+                "initialLineups": false
+            },
+            {
+                "id": 25617,
+                "date": 1633270500,
+                "status": "preview",
+                "home": {
+                    "id": 7,
+                    "name": "Espanyol",
+                    "slug": "espanyol",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 1716,
+                                "name": "Aleix Vidal",
+                                "slug": "aleix-vidal",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1769,
+                                "name": "Darder",
+                                "slug": "sergi-darder",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1788,
+                                "name": "Embarba",
+                                "slug": "embarba",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1889,
+                                "name": "Sergi GÃ³mez",
+                                "slug": "sergi-gomez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5800,
+                                "name": "David LÃ³pez",
+                                "slug": "david-lopez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 6021,
+                                "name": "Diego LÃ³pez",
+                                "slug": "diego-lopez",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9475,
+                                "name": "De TomÃ¡s",
+                                "slug": "raul-de-tomas",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 11800,
+                                "name": "Cabrera",
+                                "slug": "leandro-cabrera",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 16625,
+                                "name": "Morlanes",
+                                "slug": "manu-morlanes",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 16889,
+                                "name": "Pedrosa",
+                                "slug": "pedrosa",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22075,
+                                "name": "Ã“scar Gil",
+                                "slug": "oscar-gil",
+                                "position": 2
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 15,
+                    "name": "Real Madrid",
+                    "slug": "real-madrid",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 21,
+                                "name": "David Alaba",
+                                "slug": "david-alaba",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1027,
+                                "name": "Benzema",
+                                "slug": "benzema",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1332,
+                                "name": "Nacho",
+                                "slug": "nacho-fernandez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1583,
+                                "name": "Modric",
+                                "slug": "modric",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1949,
+                                "name": "Lucas VÃ¡zquez",
+                                "slug": "lucas-vazquez",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2081,
+                                "name": "Asensio",
+                                "slug": "asensio",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2097,
+                                "name": "Casemiro",
+                                "slug": "casemiro",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9402,
+                                "name": "Valverde",
+                                "slug": "fede-valverde",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 15568,
+                                "name": "VinÃ­cius Jr",
+                                "slug": "vinicius-junior",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 16738,
+                                "name": "Courtois",
+                                "slug": "t-courtois",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18173,
+                                "name": "MilitÃ£o",
+                                "slug": "eder-militao",
+                                "position": 2
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Espanyol - Real Madrid",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/espanyol-real-madrid-3/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25617&lang=es"
+                },
+                "summary": null,
+                "location": "RCDE Stadium",
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/espanyol-real-madrid-3/",
+                "initialLineups": false
+            },
+            {
+                "id": 25614,
+                "date": 1633278600,
+                "status": "preview",
+                "home": {
+                    "id": 8,
+                    "name": "Getafe",
+                    "slug": "getafe",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 11,
+                                "name": "David Soria",
+                                "slug": "david-soria",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1360,
+                                "name": "DamiÃ¡n SuÃ¡rez",
+                                "slug": "damian-suarez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1550,
+                                "name": "Florentino",
+                                "slug": "florentino",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1972,
+                                "name": "Sandro",
+                                "slug": "sandro-ramirez",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 8665,
+                                "name": "Maksimovic",
+                                "slug": "maksimovic",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9045,
+                                "name": "Enes Ãœnal",
+                                "slug": "enes-unal",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9983,
+                                "name": "DjenÃ©",
+                                "slug": "djene",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10157,
+                                "name": "AleÃ±Ã¡",
+                                "slug": "alena",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10171,
+                                "name": "Olivera",
+                                "slug": "mathias-olivera",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 12092,
+                                "name": "Jorge Cuenca",
+                                "slug": "jorge-cuenca",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 23840,
+                                "name": "Juan Iglesias",
+                                "slug": "juan-iglesias",
+                                "position": 2
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 13,
+                    "name": "Real Sociedad",
+                    "slug": "real-sociedad",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 2016,
+                                "name": "Elustondo",
+                                "slug": "aritz-elustondo",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2602,
+                                "name": "Barrenetxea",
+                                "slug": "barrenetxea",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2603,
+                                "name": "Oyarzabal",
+                                "slug": "oyarzabal",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 7003,
+                                "name": "Remiro",
+                                "slug": "alex-remiro",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9075,
+                                "name": "Portu",
+                                "slug": "portu",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 15462,
+                                "name": "Gorosabel",
+                                "slug": "a-gorosabel",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 15719,
+                                "name": "Le Normand",
+                                "slug": "le-normand",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 16320,
+                                "name": "Mikel Merino",
+                                "slug": "mikel-merino",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17200,
+                                "name": "Aihen MuÃ±oz",
+                                "slug": "aihen-munoz",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17369,
+                                "name": "Guevara",
+                                "slug": "ander-guevara",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24474,
+                                "name": "Robert Navarro",
+                                "slug": "robert-navarro",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Getafe - Real Sociedad",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/getafe-real-sociedad-4/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25614&lang=es"
+                },
+                "summary": null,
+                "location": "Coliseum Alfonso PÃ©rez",
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/getafe-real-sociedad-4/",
+                "initialLineups": false
+            },
+            {
+                "id": 25619,
+                "date": 1633278600,
+                "status": "preview",
+                "home": {
+                    "id": 19,
+                    "name": "Villarreal",
+                    "slug": "villarreal",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 951,
+                                "name": "Parejo",
+                                "slug": "parejo",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1699,
+                                "name": "Trigueros",
+                                "slug": "trigueros",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1915,
+                                "name": "Rulli",
+                                "slug": "rulli",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2031,
+                                "name": "Pedraza",
+                                "slug": "alfonso-pedraza",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2480,
+                                "name": "Mandi",
+                                "slug": "aissa-mandi",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 6708,
+                                "name": "Ã‰tienne Capoue",
+                                "slug": "etienne-capoue",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 16713,
+                                "name": "Pau Torres",
+                                "slug": "pau-torres",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 20890,
+                                "name": "Boulaye Dia",
+                                "slug": "boulaye-dia",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22964,
+                                "name": "Foyth",
+                                "slug": "juan-foyth",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 23280,
+                                "name": "YÃ©remi Pino",
+                                "slug": "yeremi-pino",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24509,
+                                "name": "Danjuma",
+                                "slug": "arnaut-danjuma",
+                                "position": 4
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 87,
+                    "name": "Betis",
+                    "slug": "betis",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 163,
+                                "name": "Guido RodrÃ­guez",
+                                "slug": "g-rodriguez",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 201,
+                                "name": "Bravo",
+                                "slug": "claudio-bravo",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 832,
+                                "name": "Juanmi",
+                                "slug": "juanmi-jimenez",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2064,
+                                "name": "Carvalho",
+                                "slug": "w-carvalho",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2162,
+                                "name": "Pezzella",
+                                "slug": "pezzella",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2194,
+                                "name": "Willian JosÃ©",
+                                "slug": "willian-jose",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2247,
+                                "name": "BellerÃ­n",
+                                "slug": "h-bellerin",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17054,
+                                "name": "Juan Miranda",
+                                "slug": "miranda-2",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18695,
+                                "name": "Fekir",
+                                "slug": "nabil-fekir",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 20533,
+                                "name": "Edgar GonzÃ¡lez",
+                                "slug": "edgar-gonzalez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 23323,
+                                "name": "Rodrigo Sanchez",
+                                "slug": "rodrigo-sanchez",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Villarreal - Betis",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/villarreal-betis-4/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25619&lang=es"
+                },
+                "summary": null,
+                "location": "Estadio de la CerÃ¡mica",
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/villarreal-betis-4/",
+                "initialLineups": false
+            },
+            {
+                "id": 25616,
+                "date": 1633287600,
+                "status": "preview",
+                "home": {
+                    "id": 71,
+                    "name": "Granada",
+                    "slug": "granada",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 788,
+                                "name": "Darwin MachÃ­s",
+                                "slug": "darwin-machis",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 1642,
+                                "name": "Escudero",
+                                "slug": "sergio-escudero",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 2635,
+                                "name": "Domingos Duarte",
+                                "slug": "domingos-duarte",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 10242,
+                                "name": "Bacca",
+                                "slug": "bacca",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 12075,
+                                "name": "Monchu",
+                                "slug": "monchu",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 13664,
+                                "name": "Luis J. SuÃ¡rez",
+                                "slug": "luis-suarez-2",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 17058,
+                                "name": "Gonalons",
+                                "slug": "maxime-gonalons",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18250,
+                                "name": "Quini",
+                                "slug": "quini-2",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18262,
+                                "name": "GermÃ¡n",
+                                "slug": "g-sanchez",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19445,
+                                "name": "Luis Milla",
+                                "slug": "luis-milla",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24500,
+                                "name": "Maximiano",
+                                "slug": "luis-maximiano",
+                                "position": 1
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "away": {
+                    "id": 17,
+                    "name": "Sevilla",
+                    "slug": "sevilla",
+                    "score": null,
+                    "reports": [
+                        {
+                            "player": {
+                                "id": 1317,
+                                "name": "Rakitic",
+                                "slug": "rakitic",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 5830,
+                                "name": "JesÃºs Navas",
+                                "slug": "jesus-navas",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 9076,
+                                "name": "Bono",
+                                "slug": "bono",
+                                "position": 1
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18171,
+                                "name": "Diego Carlos",
+                                "slug": "diego-carlos",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18945,
+                                "name": "KoundÃ©",
+                                "slug": "jules-kounde",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 18946,
+                                "name": "Ocampos",
+                                "slug": "lucas-ocampos",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19297,
+                                "name": "Rafa Mir",
+                                "slug": "rafa-mir",
+                                "position": 4
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 19859,
+                                "name": "Fernando",
+                                "slug": "fernando",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 22980,
+                                "name": "Rekik",
+                                "slug": "karim-rekik",
+                                "position": 2
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 23831,
+                                "name": "Papu GÃ³mez",
+                                "slug": "papu-gomez",
+                                "position": 3
+                            },
+                            "points": null
+                        },
+                        {
+                            "player": {
+                                "id": 24298,
+                                "name": "Erik Lamela",
+                                "slug": "erik-lamela",
+                                "position": 3
+                            },
+                            "points": null
+                        }
+                    ]
+                },
+                "preview": {
+                    "title": "Previa y onces posibles del Granada - Sevilla",
+                    "url": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/granada-sevilla-3/",
+                    "source": "blog",
+                    "photo": "https://cf.biwenger.com/draw/match.jpg?id=25616&lang=es"
+                },
+                "summary": null,
+                "location": null,
+                "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/granada-sevilla-3/",
+                "initialLineups": false
+            }
+        ],
+        "season": {
+            "id": "2022",
+            "name": "Temporada 2021/2022",
+            "slug": "2021-2022",
+            "rounds": [
+                {
+                    "id": 2639,
+                    "name": "Jornada 1",
+                    "short": "J1",
+                    "status": "finished"
+                },
+                {
+                    "id": 2640,
+                    "name": "Jornada 2",
+                    "short": "J2",
+                    "status": "finished"
+                },
+                {
+                    "id": 2641,
+                    "name": "Jornada 3",
+                    "short": "J3",
+                    "status": "finished"
+                },
+                {
+                    "id": 2642,
+                    "name": "Jornada 4",
+                    "short": "J4",
+                    "status": "finished"
+                },
+                {
+                    "id": 2643,
+                    "name": "Jornada 5",
+                    "short": "J5",
+                    "status": "finished"
+                },
+                {
+                    "id": 2644,
+                    "name": "Jornada 6",
+                    "short": "J6",
+                    "status": "finished"
+                },
+                {
+                    "id": 2645,
+                    "name": "Jornada 7",
+                    "short": "J7",
+                    "status": "finished"
+                },
+                {
+                    "id": 2646,
+                    "name": "Jornada 8",
+                    "short": "J8",
+                    "status": "pending"
+                },
+                {
+                    "id": 2647,
+                    "name": "Jornada 9",
+                    "short": "J9",
+                    "status": "pending"
+                },
+                {
+                    "id": 2648,
+                    "name": "Jornada 10",
+                    "short": "J10",
+                    "status": "pending"
+                },
+                {
+                    "id": 2649,
+                    "name": "Jornada 11",
+                    "short": "J11",
+                    "status": "pending"
+                },
+                {
+                    "id": 2650,
+                    "name": "Jornada 12",
+                    "short": "J12",
+                    "status": "pending"
+                },
+                {
+                    "id": 2651,
+                    "name": "Jornada 13",
+                    "short": "J13",
+                    "status": "pending"
+                },
+                {
+                    "id": 2652,
+                    "name": "Jornada 14",
+                    "short": "J14",
+                    "status": "pending"
+                },
+                {
+                    "id": 2653,
+                    "name": "Jornada 15",
+                    "short": "J15",
+                    "status": "pending"
+                },
+                {
+                    "id": 2654,
+                    "name": "Jornada 16",
+                    "short": "J16",
+                    "status": "pending"
+                },
+                {
+                    "id": 2655,
+                    "name": "Jornada 17",
+                    "short": "J17",
+                    "status": "pending"
+                },
+                {
+                    "id": 2656,
+                    "name": "Jornada 18",
+                    "short": "J18",
+                    "status": "pending"
+                },
+                {
+                    "id": 2657,
+                    "name": "Jornada 19",
+                    "short": "J19",
+                    "status": "pending"
+                },
+                {
+                    "id": 2658,
+                    "name": "Jornada 20",
+                    "short": "J20",
+                    "status": "pending"
+                },
+                {
+                    "id": 2659,
+                    "name": "Jornada 21",
+                    "short": "J21",
+                    "status": "pending"
+                },
+                {
+                    "id": 2660,
+                    "name": "Jornada 22",
+                    "short": "J22",
+                    "status": "pending"
+                },
+                {
+                    "id": 2661,
+                    "name": "Jornada 23",
+                    "short": "J23",
+                    "status": "pending"
+                },
+                {
+                    "id": 2662,
+                    "name": "Jornada 24",
+                    "short": "J24",
+                    "status": "pending"
+                },
+                {
+                    "id": 2663,
+                    "name": "Jornada 25",
+                    "short": "J25",
+                    "status": "pending"
+                },
+                {
+                    "id": 2664,
+                    "name": "Jornada 26",
+                    "short": "J26",
+                    "status": "pending"
+                },
+                {
+                    "id": 2665,
+                    "name": "Jornada 27",
+                    "short": "J27",
+                    "status": "pending"
+                },
+                {
+                    "id": 2666,
+                    "name": "Jornada 28",
+                    "short": "J28",
+                    "status": "pending"
+                },
+                {
+                    "id": 2667,
+                    "name": "Jornada 29",
+                    "short": "J29",
+                    "status": "pending"
+                },
+                {
+                    "id": 2668,
+                    "name": "Jornada 30",
+                    "short": "J30",
+                    "status": "pending"
+                },
+                {
+                    "id": 2669,
+                    "name": "Jornada 31",
+                    "short": "J31",
+                    "status": "pending"
+                },
+                {
+                    "id": 2670,
+                    "name": "Jornada 32",
+                    "short": "J32",
+                    "status": "pending"
+                },
+                {
+                    "id": 2671,
+                    "name": "Jornada 33",
+                    "short": "J33",
+                    "status": "pending"
+                },
+                {
+                    "id": 2672,
+                    "name": "Jornada 34",
+                    "short": "J34",
+                    "status": "pending"
+                },
+                {
+                    "id": 2673,
+                    "name": "Jornada 35",
+                    "short": "J35",
+                    "status": "pending"
+                },
+                {
+                    "id": 2674,
+                    "name": "Jornada 36",
+                    "short": "J36",
+                    "status": "pending"
+                },
+                {
+                    "id": 2675,
+                    "name": "Jornada 37",
+                    "short": "J37",
+                    "status": "pending"
+                },
+                {
+                    "id": 2676,
+                    "name": "Jornada 38",
+                    "short": "J38",
+                    "status": "pending"
+                }
+            ]
+        },
+        "news": [
+            {
+                "id": 564850,
+                "source": "blog",
+                "title": "Â¡Consigue 2 noches de hotel con el Reto Biwenger Carrusel del Atleti â€“ BarÃ§a!",
+                "url": "https://biwenger.as.com/blog/consigue-2-noches-de-hotel-con-el-reto-biwenger-carrusel-del-atleti-barca/",
+                "date": 1633089600,
+                "photo": "https://cdn.biwenger.com/wp/2021/09/BLOG.jpg",
+                "video": "",
+                "comments": 0
+            },
+            {
+                "id": 564527,
+                "source": "blog",
+                "title": "PirÃ¡mide de recomendaciones para la Jornada 8",
+                "url": "https://biwenger.as.com/blog/piramide-de-recomendaciones-para-la-jornada-8/",
+                "date": 1633004772,
+                "photo": "https://cdn.biwenger.com/wp/2021/08/PiramideRecomendaciones.jpg",
+                "video": "",
+                "comments": 0
+            },
+            {
+                "id": 564496,
+                "source": "blog",
+                "title": "Â¿QuiÃ©n serÃ¡ el MVP de la jornada 8?",
+                "url": "https://biwenger.as.com/blog/quien-sera-el-mvp-de-la-jornada-8-3/",
+                "date": 1633001019,
+                "photo": "https://cdn.biwenger.com/wp/2021/08/Mvp.jpg",
+                "video": "",
+                "comments": 0
+            },
+            {
+                "id": 564488,
+                "source": "blog",
+                "title": "Jugadores clave para la jornada 8 en EstadÃ­sticas",
+                "url": "https://biwenger.as.com/blog/jugadores-clave-para-la-jornada-8-en-estadisticas/",
+                "date": 1632999589,
+                "photo": "https://cdn.biwenger.com/wp/2021/08/Estadisticas.jpg",
+                "video": "",
+                "comments": 0
+            },
+            {
+                "id": 564489,
+                "source": "blog",
+                "title": "Jugadores para elegir como Ariete: Jornada 8",
+                "url": "https://biwenger.as.com/blog/jugadores-para-elegir-como-ariete-jornada-8/",
+                "date": 1632999458,
+                "photo": "https://cdn.biwenger.com/wp/2021/08/Ariete.jpg",
+                "video": "",
+                "comments": 0
+            },
+            {
+                "id": 564484,
+                "source": "blog",
+                "title": "Ojo a los jÃ³venes: Jornada 8",
+                "url": "https://biwenger.as.com/blog/ojo-a-los-jovenes-jornada-8/",
+                "date": 1632998591,
+                "photo": "https://cdn.biwenger.com/wp/2021/08/OjoJovenes.jpg",
+                "video": "",
+                "comments": 0
+            },
+            {
+                "id": 564092,
+                "source": "blog",
+                "title": "Â¡Participa en la Jornada Biwenger Carrusel y gana la camiseta de tu equipo!",
+                "url": "https://biwenger.as.com/blog/participa-en-la-jornada-biwenger-carrusel-y-gana-la-camiseta-de-tu-equipo/",
+                "date": 1632913533,
+                "photo": "https://cdn.biwenger.com/wp/2021/09/08_BLOG.jpg",
+                "video": "",
+                "comments": 0
+            },
+            {
+                "id": 564084,
+                "source": "blog",
+                "title": "La experiencia es un grado: jornada 8",
+                "url": "https://biwenger.as.com/blog/la-experiencia-es-un-grado-jornada-8-2/",
+                "date": 1632908293,
+                "photo": "https://cdn.biwenger.com/wp/2021/08/Experiencia.jpg",
+                "video": "",
+                "comments": 2
+            }
+        ],
+        "canonicalURL": "https://biwenger.as.com/blog/partidos/2021-2022/jornada-8/"
+    }
+}

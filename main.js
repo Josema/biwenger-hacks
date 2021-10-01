@@ -1,5 +1,6 @@
 // main.js
 let pathname
+let titulares = []
 
 document.body.onload = () => {
     function checkPath() {
@@ -44,19 +45,64 @@ document.body.onload = () => {
 
                 if (indexOf > -1) {
                     const player = element.href.slice(indexOf + slug.length)
-                    // if (player === "balenziaga") {
+                    // if (player === 'ter-stegen') {
                     const { data } = await fetchData(
                         `/players/la-liga/${player}?lang=es&fields=*%2Cteam%2Cfitness%2Creports(points%2Chome%2Cevents%2Cstatus(status%2CstatusInfo)%2Cmatch(*%2Cround%2Chome%2Caway)%2Cstar)%2Cprices%2Ccompetition%2Cseasons%2Cnews%2Cthreads&callback=jsonp_1457817899`
                     )
                     const { seasons, reports } = data
                     const season_thisyear = seasons[0]
                     const season_lastyear = seasons[1]
+                    const last_game = reports[reports.length - 1].match.round
+
+                    // TITULARES
+                    if (titulares.length === 0) {
+                        const rounds = await fetchData(
+                            `/rounds/la-liga/${last_game.id + 1}`
+                        )
+                        rounds.data.games.forEach((game) => {
+                            game.home.reports.forEach((p) => {
+                                titulares.push(p.player.slug)
+                            })
+                            game.away.reports.forEach((p) => {
+                                titulares.push(p.player.slug)
+                            })
+                        })
+                    }
+                    addDiv(
+                        element.parentElement,
+                        ``,
+                        `
+                            width: 16px;
+                            height: 15px;
+                            background: ${
+                                titulares.includes(player)
+                                    ? '#73ce49'
+                                    : '#e7604f'
+                            };
+                            float: left;
+                            margin-right: 2px;
+                            `
+                    )
 
                     // POINTS
                     const points_thisyear =
                         getAveragePointsSeason(season_thisyear)
                     const points_lastyear =
                         getAveragePointsSeason(season_lastyear)
+
+                    // BIDS
+                    if (pathname === '/market') {
+                        const bids = await fetchData(`/market/bids`, {
+                            method: 'POST',
+                            body: { player: data.id },
+                        })
+                        addDiv(
+                            element.parentElement,
+                            `bids: ${bids.data}`,
+                            'font-weight:bold'
+                        )
+                        await waitFor(100)
+                    }
 
                     // MINUTES
                     const minutes = []
@@ -98,17 +144,6 @@ document.body.onload = () => {
                             ).toFixed(1)}`
                         )
                     }
-
-                    // BIDS
-                    if (pathname === '/market') {
-                        const bids = await fetchData(`/market/bids`, {
-                            method: 'POST',
-                            body: { player: data.id },
-                        })
-                        addDiv(element.parentElement, `bids: ${bids.data}`)
-                        await waitFor(100)
-                    }
-
                     // }
                 }
             }
@@ -128,8 +163,16 @@ document.body.onload = () => {
     const button1 = document.createElement('button')
     button1.innerHTML = `SHOW`
     button1.onclick = showAverages
-    button1.style =
-        'position: fixed;z-index: 999999;bottom: 0px;/* font-size: 17px; */font-weight: bold;background: #62cb31;padding: 7px;'
+    button1.style = `
+        position: fixed;
+        z-index: 999999;
+        bottom: 0px;
+        font-weight: bold;
+        background: rgb(98, 203, 49);
+        border: 0;
+        border-radius: 25px;
+        padding: 9px 20px;
+    `
     div.appendChild(button1)
 }
 
@@ -184,9 +227,9 @@ function waitFor(timeout) {
     })
 }
 
-function addDiv(parentElement, text) {
+function addDiv(parentElement, text, styles) {
     const element = document.createElement('div')
     element.innerHTML = text
-    element.style = 'font-size: 85%'
+    element.style = 'font-size: 85%;' + styles
     parentElement.appendChild(element)
 }
