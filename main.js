@@ -74,13 +74,14 @@ document.body.onload = () => {
                         `
                             width: 16px;
                             height: 15px;
+                            border-radius: 2px;
+                            float: left;
+                            margin-right: 2px;
                             background: ${
                                 titulares.includes(player)
                                     ? '#73ce49'
                                     : '#e7604f'
                             };
-                            float: left;
-                            margin-right: 2px;
                             `
                     )
 
@@ -164,14 +165,16 @@ document.body.onload = () => {
     button1.innerHTML = `SHOW`
     button1.onclick = showAverages
     button1.style = `
+        background: #73ce49;
+        box-shadow: 0px 3px #55b528;
         position: fixed;
         z-index: 999999;
-        bottom: 0px;
+        bottom: 7px;
         font-weight: bold;
-        background: rgb(98, 203, 49);
-        border: 0;
+        border: 0px;
         border-radius: 25px;
         padding: 9px 20px;
+        left: 5px;
     `
     div.appendChild(button1)
 }
