@@ -1,5 +1,6 @@
 // main.js
 let pathname
+let rounds
 let titulares = []
 
 document.body.onload = () => {
@@ -56,7 +57,7 @@ document.body.onload = () => {
 
                     // TITULARES
                     if (titulares.length === 0) {
-                        const rounds = await fetchData(
+                        rounds = await fetchData(
                             `/rounds/la-liga/${last_game.id + 1}`
                         )
                         rounds.data.games.forEach((game) => {
@@ -70,13 +71,15 @@ document.body.onload = () => {
                     }
                     addDiv(
                         element.parentElement,
-                        ``,
+                        rounds.data.short,
                         `
                             width: 16px;
                             height: 15px;
                             border-radius: 2px;
                             float: left;
                             margin-right: 2px;
+                            text-align:center;
+                            color:white;
                             background: ${
                                 titulares.includes(player)
                                     ? '#73ce49'
