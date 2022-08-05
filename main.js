@@ -2,6 +2,8 @@
 let pathname
 let rounds
 let titulares = []
+const red = '#e74c3c'
+const green = '#5cb85c'
 
 document.body.onload = () => {
     function checkPath() {
@@ -27,11 +29,7 @@ document.body.onload = () => {
             (element, index) => {
                 const { balance, teamValue } = data.standings[index]
                 const total = ((balance + teamValue) / 1000000).toFixed(1)
-                //   e.innerText += ` <strong>(${total})</strong>`;
-                const newelement = document.createElement('div')
-                newelement.innerHTML = total
-                newelement.style.fontWeight = 'bold'
-                element.parentElement.appendChild(newelement)
+                addDiv(element.parentElement, total + 'M', 'font-weight:bold;')
             }
         )
     }
@@ -50,13 +48,20 @@ document.body.onload = () => {
                     const { data } = await fetchData(
                         `/players/la-liga/${player}?lang=es&fields=*%2Cteam%2Cfitness%2Creports(points%2Chome%2Cevents%2Cstatus(status%2CstatusInfo)%2Cmatch(*%2Cround%2Chome%2Caway)%2Cstar)%2Cprices%2Ccompetition%2Cseasons%2Cnews%2Cthreads&callback=jsonp_1457817899`
                     )
+
                     const { seasons, reports } = data
-                    const season_thisyear = seasons[0]
-                    const season_lastyear = seasons[1]
-                    const last_game = reports[reports.length - 1].match.round
+                    const season_this = seasons[0]
+                    const season_last = seasons[1]
+
+                    const data_lastseason = await fetchData(
+                        `/players/la-liga/${player}?lang=es&season=${season_last.id}&fields=*%2Cteam%2Cfitness%2Creports(points%2Chome%2Cevents%2Cstatus(status%2CstatusInfo)%2Cmatch(*%2Cround%2Chome%2Caway)%2Cstar)%2Cprices%2Ccompetition%2Cseasons%2Cnews%2Cthreads&callback=jsonp_1457817899`
+                    )
 
                     // TITULARES
-                    if (titulares.length === 0) {
+                    if (titulares.length === 0 && reports.length > 0) {
+                        const last_game =
+                            reports[reports.length - 1].match.round
+
                         rounds = await fetchData(
                             `/rounds/la-liga/${last_game.id + 1}`
                         )
@@ -68,31 +73,30 @@ document.body.onload = () => {
                                 titulares.push(p.player.slug)
                             })
                         })
-                    }
-                    addDiv(
-                        element.parentElement,
-                        rounds.data.short,
-                        `
-                            width: 16px;
-                            height: 15px;
-                            border-radius: 2px;
-                            float: left;
-                            margin-right: 2px;
-                            text-align:center;
-                            color:white;
-                            background: ${
-                                titulares.includes(player)
-                                    ? '#73ce49'
-                                    : '#e7604f'
-                            };
+
+                        addDiv(
+                            element.parentElement,
+                            rounds.data.short,
                             `
-                    )
+                                width: 16px;
+                                height: 15px;
+                                border-radius: 2px;
+                                float: left;
+                                margin-right: 2px;
+                                text-align:center;
+                                color:white;
+                                background: ${
+                                    titulares.includes(player)
+                                        ? '#73ce49'
+                                        : '#e7604f'
+                                };
+                                `
+                        )
+                    }
 
                     // POINTS
-                    const points_thisyear =
-                        getAveragePointsSeason(season_thisyear)
-                    const points_lastyear =
-                        getAveragePointsSeason(season_lastyear)
+                    const points_thisseason =
+                        getAveragePointsSeason(season_this)
 
                     // BIDS
                     if (pathname === '/market') {
@@ -108,44 +112,48 @@ document.body.onload = () => {
                         await waitFor(100)
                     }
 
-                    // MINUTES
-                    const minutes = []
-                    reports.forEach((report) => {
-                        if (
-                            report.status?.status !== 'injured' &&
-                            report.status?.status !== 'sanctioned'
-                        ) {
-                            const entra = report.events?.find(
-                                (e) => e.type === 5
-                            )
-                            const sale = report.events?.find(
-                                (e) => e.type === 4
-                            )
-
-                            let m = report.hasOwnProperty('points') ? 90 : 0
-                            if (entra !== undefined) {
-                                m = m - entra.metadata
-                            } else if (sale !== undefined) {
-                                m = sale.metadata
-                            }
-
-                            minutes.push(m)
-                        }
-                    })
-                    const average_minutes = Math.round(averageArray(minutes))
-
-                    addDiv(
-                        element.parentElement,
-                        `${season_thisyear.id}: ${(
-                            points_thisyear || 0
-                        ).toFixed(1)} - ${average_minutes}'`
+                    //UNDERVALUE
+                    const { price } = data
+                    const price_max = Math.max.apply(
+                        Math,
+                        data.prices.map((p) => p[1])
                     )
-                    if (season_lastyear !== undefined) {
-                        addDiv(
+                    const undervalued = Math.round(
+                        100 - (price * 100) / price_max
+                    )
+
+                    addTable(element.parentElement, [
+                        `${(price_max / 1000000).toFixed(2)}M`,
+                        createSpan(
+                            `-${undervalued}%`,
+                            `color:${undervalued > 50 ? green : red}`
+                        ),
+                    ])
+
+                    // MINUTES and POINTS
+                    const average_minutes_thisseason =
+                        getAverageMinutesSeason(reports)
+
+                    createAndAddTableData(
+                        element.parentElement,
+                        season_this,
+                        points_thisseason,
+                        average_minutes_thisseason
+                    )
+
+                    if (season_last !== undefined) {
+                        const points_lastseason =
+                            getAveragePointsSeason(season_last)
+                        const average_minutes_lastseason =
+                            getAverageMinutesSeason(
+                                data_lastseason.data.reports
+                            )
+
+                        createAndAddTableData(
                             element.parentElement,
-                            `${season_lastyear.id}: ${(
-                                points_lastyear || 0
-                            ).toFixed(1)}`
+                            season_last,
+                            points_lastseason,
+                            average_minutes_lastseason
                         )
                     }
                     // }
@@ -212,6 +220,63 @@ async function fetchData(endpoint, { method = 'GET', body = {} } = {}) {
     return response.json()
 }
 
+function createAndAddTableData(element, season, points, average) {
+    addTable(element, [
+        season.id,
+        createSpan(
+            (points || 0).toFixed(1),
+            `color:${points > 5 ? green : red}`
+        ),
+        createSpan(
+            `${average.mins}'`,
+            `color:${average.mins > 45 ? green : red}`
+        ),
+        createSpan(
+            `${average.starting}/${average.matches_available}`,
+            `color:${
+                average.starting > average.matches_available / 2 ? green : red
+            }`
+        ),
+    ])
+}
+
+function getAverageMinutesSeason(matches) {
+    const minutes = []
+    let starting = 0
+    let matches_available = matches.length
+    matches.forEach((match) => {
+        if (
+            match.status?.status !== 'injured' &&
+            match.status?.status !== 'sanctioned'
+        ) {
+            const entra = match.events?.find((e) => e.type === 5)
+            const sale = match.events?.find((e) => e.type === 4)
+
+            if (match.hasOwnProperty('points')) {
+                m = 90
+                starting += 1
+            } else {
+                m = 0
+            }
+            if (entra !== undefined) {
+                m = m - entra.metadata
+                starting -= 1
+            } else if (sale !== undefined) {
+                m = sale.metadata
+            }
+
+            minutes.push(m)
+        } else {
+            matches_available -= 1
+        }
+    })
+    return {
+        mins: Math.round(averageArray(minutes)),
+        starting,
+        matches_available,
+    }
+}
+
 function getAveragePointsSeason(season) {
     if (season !== undefined && season.points !== undefined) {
         const points = Object.values(season.points)
@@ -235,7 +300,36 @@ function waitFor(timeout) {
 
 function addDiv(parentElement, text, styles) {
     const element = document.createElement('div')
-    element.innerHTML = text
     element.style = 'font-size: 85%;' + styles
+    if (typeof text === 'string') {
+        element.innerHTML = text
+    } else {
+        element.appendChild(text)
+    }
     parentElement.appendChild(element)
+}
+
+function addTable(parentElement, rows, styles) {
+    const element = document.createElement('table')
+    element.style = 'font-size: 85%;' + styles
+    rows.forEach((row) => {
+        const td = document.createElement('td')
+        td.style = `width:${
+            100 / rows.length
+        }%; padding:5px; border:1px solid #ececec;`
+        if (typeof row === 'string') {
+            td.innerHTML = row
+        } else {
+            td.appendChild(row)
+        }
+        element.appendChild(td)
+    })
+    parentElement.appendChild(element)
+}
+
+function createSpan(text, styles) {
+    const element = document.createElement('span')
+    element.style = styles
+    element.innerHTML = text
+    return element
 }
