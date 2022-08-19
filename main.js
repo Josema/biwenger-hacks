@@ -53,11 +53,14 @@ document.body.onload = () => {
                     const season_this = seasons[0]
                     const season_last = seasons[1]
 
-                    const data_lastseason = await fetchData(
-                        `/players/la-liga/${player}?lang=es&season=${season_last.id}&fields=*%2Cteam%2Cfitness%2Creports(points%2Chome%2Cevents%2Cstatus(status%2CstatusInfo)%2Cmatch(*%2Cround%2Chome%2Caway)%2Cstar)%2Cprices%2Ccompetition%2Cseasons%2Cnews%2Cthreads&callback=jsonp_1457817899`
-                    )
+                    const data_lastseason =
+                        season_last !== undefined
+                            ? await fetchData(
+                                  `/players/la-liga/${player}?lang=es&season=${season_last.id}&fields=*%2Cteam%2Cfitness%2Creports(points%2Chome%2Cevents%2Cstatus(status%2CstatusInfo)%2Cmatch(*%2Cround%2Chome%2Caway)%2Cstar)%2Cprices%2Ccompetition%2Cseasons%2Cnews%2Cthreads&callback=jsonp_1457817899`
+                              )
+                            : undefined
 
-                    // TITULARES
+                    // FETCH TITULARES
                     if (titulares.length === 0 && reports.length > 0) {
                         const last_game =
                             reports[reports.length - 1].match.round
@@ -73,7 +76,10 @@ document.body.onload = () => {
                                 titulares.push(p.player.slug)
                             })
                         })
+                    }
 
+                    // ADD TITULAR ICON
+                    if (titulares.length > 0) {
                         addDiv(
                             element.parentElement,
                             rounds.data.short,
@@ -104,12 +110,17 @@ document.body.onload = () => {
                             method: 'POST',
                             body: { player: data.id },
                         })
-                        addDiv(
-                            element.parentElement,
-                            `bids: ${bids.data}`,
-                            'font-weight:bold'
-                        )
-                        await waitFor(100)
+
+                        addTable(element.parentElement, [
+                            createSpan(
+                                `bids: ${bids.data}`,
+                                `font-weight:bold;color:${
+                                    bids.data === 0 ? green : 'black'
+                                }`
+                            ),
+                        ])
+
+                        // await waitFor(200)
                     }
 
                     //UNDERVALUE
@@ -157,6 +168,8 @@ document.body.onload = () => {
                         )
                     }
                     // }
+
+                    await waitFor(100)
                 }
             }
         }
@@ -225,7 +238,7 @@ function createAndAddTableData(element, season, points, average) {
         season.id,
         createSpan(
             (points || 0).toFixed(1),
-            `color:${points > 5 ? green : red}`
+            `color:${points > 4 ? green : red}`
         ),
         createSpan(
             `${average.mins}'`,
@@ -316,7 +329,7 @@ function addTable(parentElement, rows, styles) {
         const td = document.createElement('td')
         td.style = `width:${
             100 / rows.length
-        }%; padding:5px; border:1px solid #ececec;`
+        }%; padding:2px; border:1px solid #ececec;`
         if (typeof row === 'string') {
             td.innerHTML = row
         } else {
