@@ -113,7 +113,7 @@ document.body.onload = () => {
 
                         addTable(element.parentElement, [
                             createSpan(
-                                `bids: ${bids.data}`,
+                                `${bids.data} pujas`,
                                 `font-weight:bold;color:${
                                     bids.data === 0 ? green : 'black'
                                 }`
@@ -346,3 +346,15 @@ function createSpan(text, styles) {
     element.innerHTML = text
     return element
 }
+
+//JORNADAPERFECTA
+// fetch(
+//     `https://api.allorigins.win/get?url=${encodeURIComponent(
+//         'https://www.jornadaperfecta.com/equipo/elche/'
+//     )}`
+// )
+//     .then((response) => {
+//         if (response.ok) return response.json()
+//         throw new Error('Network response was not ok.')
+//     })
+//     .then((data) => console.log(data.contents))
