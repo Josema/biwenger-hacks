@@ -1,3 +1,4 @@
 ### How to install:
 
-https://chrome-stats.com/articles/install-extension
+1. Code > Download Zip
+2. https://chrome-stats.com/articles/install-extension
